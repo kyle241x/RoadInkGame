@@ -26,7 +26,7 @@ public enum Dice {
         tileString += generateATile(B);
         return tileString;
     }
-
+    //main
     public static void main(String[] args) {
         System.out.println(Dice.generateFourTiles());
     }
